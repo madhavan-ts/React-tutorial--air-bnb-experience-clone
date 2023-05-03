@@ -1,0 +1,30 @@
+.herosec{
+    padding: 3rem;
+
+}
+
+.hero-container{
+    display: flex;
+    padding: 3rem;
+    
+    align-items: center;
+justify-content: center;
+margin-bottom: 2rem;
+}
+
+.hero-img{
+    max-width: 60rem;
+    overflow: hidden;
+
+}
+
+.hero-head{
+    font-size: 3rem;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.hero-text{
+    font-size: 1.4rem;
+    width: 80%;
+}

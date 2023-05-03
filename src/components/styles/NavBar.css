@@ -1,0 +1,21 @@
+.nav{
+    background-color: white;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 .5rem  2rem rgba(0, 0, 0, .2)  ;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ff385c;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+.nav-icon{
+    margin-right: 1rem;
+    font-size: 3.5rem;
+    
+}
