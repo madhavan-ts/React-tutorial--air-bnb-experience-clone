@@ -1,0 +1,56 @@
+.card {
+    font-size: 1.4rem;
+    width: 30rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.card-section {
+    padding: 3rem;
+    /* width: 98vw; */
+    display: flex;
+    /* overflow-x: scroll; */
+}
+
+/* .card-image-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+} */
+
+.card-img {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.card-ratings {
+    margin-bottom: .4rem;
+    display: flex;
+    align-items: center;
+}
+
+.card-ratings>i {
+    margin-right: .5rem;
+    color: #ffa200;
+
+}
+
+
+.card-title {
+    margin-bottom: .4rem;
+
+}
+
+.card-location {
+    color: #666;
+}
+
+.price {
+    font-weight: 700;
+}
