@@ -5,12 +5,7 @@ import Carddata from "./carddata.js";
 function CardSec() {
   const elements = Carddata.map((items) => (
     <Card
-      image={items.image}
-      rating={items.rating}
-      count={items.count}
-      title={items.title}
-      rate={items.rate}
-      country={items.country}
+      {...items}
     />
   ));
 

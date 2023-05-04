@@ -2,6 +2,8 @@ import "./styles/Card.css";
 // import newLocal from "../assets/image 12.png";
 
 function Card(props: any) {
+  console.log(props);
+  
   return (
     <>
       <div className="card">
