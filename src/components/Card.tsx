@@ -1,17 +1,12 @@
 import "./styles/Card.css";
-// import newLocal from "../assets/image 12.png";
 
 function Card(props: any) {
   console.log(props);
-  
+
   return (
     <>
       <div className="card">
-        <img
-          src={`../assets/${props.image}`}
-          alt="card-img1"
-          className="card-img"
-        />
+        <img src={props.image} alt="card-img1" className="card-img" />
         <p className="card-ratings">
           <i className="fa-solid fa-star"></i> {props.rating}
           <span className="card-location">
