@@ -1,6 +1,6 @@
 export default [
         {
-          image:"image 12.png",
+    image: "image.png",
           rating:5.0,
           count:4,
           title:"Life Lessons with Kate Zaferes",
@@ -9,7 +9,7 @@ export default [
         },
 
         {
-          image:"wedding-photography 1.png",
+          image: "wedding-photography.png",
           rating:4.8,
           count:8,
           title:"Learn Wedding Photograpty",
@@ -18,7 +18,7 @@ export default [
         },
 
         {
-          image:"mountain-bike 1 (1).png",
+          image: "mountain-bike.png",
           rating:3.6,
           count:2,
           title:"Experience Dirt Biking in Mountains",

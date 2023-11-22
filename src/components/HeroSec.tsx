@@ -1,5 +1,5 @@
 import "./styles/HeroSec.css";
-import gridImage from "../assets/Group 77.png";
+import gridImage from "../assets/Group.png";
 
 function HeroSec() {
   return (
