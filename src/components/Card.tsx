@@ -8,7 +8,7 @@ function Card(props: any) {
     <>
       <div className="card">
         <img
-          src={`./src/assets/${props.image}`}
+          src={`../assets/${props.image}`}
           alt="card-img1"
           className="card-img"
         />
